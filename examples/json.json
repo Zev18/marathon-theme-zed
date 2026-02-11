@@ -1,0 +1,12 @@
+{
+  "name": "test-document",
+  "displayName": "Test JSON Document",
+  "link": "https://link.com",
+  "lists": ["ArrayLiterals"],
+  "objects": [
+    {
+      "name": "testNest",
+      "value": { "inception": "level" }
+    }
+  ]
+}

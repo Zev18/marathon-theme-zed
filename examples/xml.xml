@@ -1,0 +1,12 @@
+<document>
+    <key>value</key>
+    <trunk>
+        <!-- Comments -->
+        <branch attribute="value">
+            <leaf />
+        </branch>
+    </trunk>
+    <another>
+        <value />
+    </another>
+</document>

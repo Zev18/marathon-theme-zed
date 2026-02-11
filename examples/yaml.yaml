@@ -1,0 +1,12 @@
+key: value
+
+trunk:
+  branch:
+    leaf: [one, of, many]
+  second-branch:
+    another-leaf: simple
+
+deeper:
+  keys:
+    name: Value
+    boolean: true
