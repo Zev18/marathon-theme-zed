@@ -1,0 +1,52 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Marathon Theme",
+  "author": "Zev Ross",
+  "themes": [
+    {
+      "name": "Marathon Dark",
+      "appearance": "dark",
+      "style": {
+        "background": "#000",
+        "border": "#FFFFFF66",
+        "border.disabled": "#FFFFFF80",
+        "border.focused": "#c2ff0e",
+        "border.transparent": "#FFFFFF80",
+        "border.variant": "#FFFFFF66",
+        "conflict": "#ff0200",
+        "conflict.background": "#FF02001A",
+        "conflict.border": "#ff0200",
+        "created": "#01ff03",
+        "created.background": "#01FF031A",
+        "created.border": "#01ff03",
+        "deleted": "#ff5502",
+        "deleted.background": "#FF55021A",
+        "deleted.border": "#ff5502",
+        "drop_target.background": "#34425580",
+        "editor.active_line_number": "#c2ff0e",
+        "editor.active_line.background": "#C2FF0E1A",
+        "editor.background": "#000",
+        "editor.document_highlight.bracket_background": "#4009FFCC",
+        "editor.document_highlight.read_background": "#C2FF0E33",
+        "editor.document_highlight.write_background": "#4009ff",
+        "editor.foreground": "#FFFFFFCC",
+        "editor.gutter.background": "#000",
+        "editor.highlighted_line.background": "#C2FF0E1A",
+        "editor.invisible": "#FFFFFF1A",
+        "editor.line_number": "#FFFFFF66",
+        "editor.subheader.background": "#344255",
+        "editor.wrap_guide": "#FFFFFF1A",
+        "element.active": "#fff",
+        "element.background": "#344255",
+        "element.disabled": "#3442551A",
+        "element.hover": "#C2FF0E80",
+        "element.selected": "#C2FF0E1A"
+      }
+    },
+    {
+      "name": "Marathon Light",
+      "appearance": "light",
+      "style": {}
+    }
+  ]
+}
