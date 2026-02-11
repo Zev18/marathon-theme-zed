@@ -9,7 +9,8 @@
     "dev": "tsx src/build.ts -w -d"
   },
   "keywords": [],
-  "author": "",
+  "author": "Zev Ross",
+  "repository": "https://github.com/Zev18/marathon-theme-zed",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {

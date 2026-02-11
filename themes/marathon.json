@@ -9,10 +9,10 @@
       "style": {
         "background": "#111111",
         "border": "#8E8E8E4D",
-        "border.disabled": "#FFFFFF80",
+        "border.disabled": "#8E8E8E80",
         "border.focused": "#c2ff0e",
         "border.transparent": "#FFFFFF80",
-        "border.variant": "#FFFFFF66",
+        "border.variant": "#8E8E8E4D",
         "border.selected": "#c2ff0e",
         "conflict": "#ff0200",
         "conflict.background": "#FF02001A",
@@ -257,6 +257,9 @@
           "punctuation.markup": {
             "color": "#c2ff0e"
           },
+          "punctuation.special": {
+            "color": "#ba3bff"
+          },
           "selector": {
             "color": "#c2ff0e"
           },
@@ -274,8 +277,16 @@
           "string": {
             "color": "#95f7c4"
           },
+          "string.escape": {
+            "color": "#ba3bff"
+          },
+          "string.special.symbol": {
+            "color": "#5AC8FF",
+            "font_style": null,
+            "font_weight": null
+          },
           "text.literal": {
-            "color": "#c7c7c7"
+            "color": "#95f7c4"
           },
           "variable": {
             "color": "#fff"
@@ -538,6 +549,9 @@
           "punctuation.markup": {
             "color": "#ba3bff"
           },
+          "punctuation.special": {
+            "color": "#ba3bff"
+          },
           "selector": {
             "color": "#c2ff0e"
           },
@@ -555,8 +569,11 @@
           "string": {
             "color": "#33E289"
           },
+          "string.escape": {
+            "color": "#ba3bff"
+          },
           "text.literal": {
-            "color": "#c7c7c7"
+            "color": "#33E289"
           },
           "variable": {
             "color": "#000"

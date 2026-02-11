@@ -100,10 +100,10 @@ export const theme: ThemeFamilyContent = {
       style: {
         background: ui.background,
         border: opacity(ui.muted, 0.3),
-        "border.disabled": opacity(ui.border, 0.5),
+        "border.disabled": opacity(ui.muted, 0.5),
         "border.focused": ui.primary,
         "border.transparent": opacity(ui.border, 0.5),
-        "border.variant": ui.border,
+        "border.variant": opacity(ui.muted, 0.3),
         "border.selected": ui.primary,
         conflict: ui.error,
         "conflict.background": ui.errorBg,
@@ -328,6 +328,9 @@ export const theme: ThemeFamilyContent = {
           "punctuation.markup": {
             color: colors.green,
           },
+          "punctuation.special": {
+            color: colors.epic,
+          },
           selector: {
             color: colors.green,
           },
@@ -345,8 +348,16 @@ export const theme: ThemeFamilyContent = {
           string: {
             color: colors.sekiguchi,
           },
+          "string.escape": {
+            color: colors.epic,
+          },
+          "string.special.symbol": {
+            color: "#5AC8FF",
+            font_style: null,
+            font_weight: null,
+          },
           "text.literal": {
-            color: colors.common,
+            color: colors.sekiguchi,
           },
           variable: {
             color: colors.white,
@@ -589,6 +600,9 @@ export const theme: ThemeFamilyContent = {
           "punctuation.markup": {
             color: colors.epic,
           },
+          "punctuation.special": {
+            color: colors.epic,
+          },
           selector: {
             color: colors.green,
           },
@@ -606,8 +620,11 @@ export const theme: ThemeFamilyContent = {
           string: {
             color: "#33E289",
           },
+          "string.escape": {
+            color: colors.epic,
+          },
           "text.literal": {
-            color: colors.common,
+            color: "#33E289",
           },
           variable: {
             color: colors.black,
