@@ -4,11 +4,11 @@ A theme for the Zed text editor based on the art desing of the 2026 video game M
 
 ## Marathon Dark
 
-![Marathon Dark](./screenshots/marathon_dark.png)
+![Marathon Dark](./screenshots/marathon-dark.png)
 
 ## Marathon Light
 
-![Marathon Light](./screenshots/marathon_light.png)
+![Marathon Light](./screenshots/marathon-light.png)
 
 ## Installation
 
